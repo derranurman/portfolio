@@ -1,106 +1,116 @@
-@extends('template_blog.content')
-	
-@section('isi')
-<div class="col-md-8 hot-post-left">
-					<!-- post -->
-					<div class="post post-thumb">
-						<a class="post-img" href="blog-post.html"><img src="{{ asset('public/frontend/img/hot-post-1.jpg')}}" alt=""></a>
-						<div class="post-body">
-							<div class="post-category">
-								<a href="category.html">Lifestyle</a>
-							</div>
-							<h3 class="post-title title-lg"><a href="blog-post.html">Postea senserit id eos, vivendo periculis ei qui</a></h3>
-							<ul class="post-meta">
-								<li><a href="author.html">John Doe</a></li>
-								<li>20 April 2018</li>
-							</ul>
-						</div>
-					</div>
-					<!-- /post -->
-				</div>
-				<div class="col-md-4 hot-post-right">
-					<!-- post -->
-					<div class="post post-thumb">
-						<a class="post-img" href="blog-post.html"><img src="{{ asset('public/frontend/img/hot-post-2.jpg')}}" alt=""></a>
-						<div class="post-body">
-							<div class="post-category">
-								<a href="category.html">Lifestyle</a>
-							</div>
-							<h3 class="post-title"><a href="blog-post.html">Sed ut perspiciatis, unde omnis iste natus error sit</a></h3>
-							<ul class="post-meta">
-								<li><a href="author.html">John Doe</a></li>
-								<li>20 April 2018</li>
-							</ul>
-						</div>
-					</div>
-					<!-- /post -->
+<!doctype html>
+<html lang="en">
 
-					<!-- post -->
-					<div class="post post-thumb">
-						<a class="post-img" href="blog-post.html"><img src="{{ asset('public/frontend/img/hot-post-3.jpg')}}" alt=""></a>
-						<div class="post-body">
-							<div class="post-category">
-								<a href="category.html">Fashion</a>
-								<a href="category.html">Lifestyle</a>
-							</div>
-							<h3 class="post-title"><a href="blog-post.html">Mel ut impetus suscipit tincidunt. Cum id ullum laboramus persequeris.</a></h3>
-							<ul class="post-meta">
-								<li><a href="author.html">John Doe</a></li>
-								<li>20 April 2018</li>
-							</ul>
-						</div>
-					</div>
-					<!-- /post -->
-				</div>
-	
-		<!-- /container -->
-	</div>
-	<!-- /SECTION -->
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="{{ asset('frontend/img/KZ.png')}}" type="image/png">
+	<title>@yield('title')</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.css')}}">
+	<link rel="stylesheet" href="{{ asset('frontend/vendors/linericon/style.css')}}">
+	<link rel="stylesheet" href="{{ asset('frontend/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('frontend/vendors/owl-carousel/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('frontend/css/magnific-popup.css') }}">
+	<link rel="stylesheet" href="{{ asset('frontend/vendors/nice-select/css/nice-select.css')}}">
+	<!-- main css -->
+	<link rel="stylesheet" href="{{ asset('frontend/css/style.css')}}">
+	@yield('css-after')
+</head>
 
-	<!-- SECTION -->
-	<div class="section">
-		<!-- container -->
+<body>
+
+	<!--================ Start Header Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="/"><img src="{{ asset('frontend/img/logo.png')}}" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="/portfolio">Portfolio</a></li>
+						
+							<li class="nav-item submenu dropdown">
+								<a href="/blog" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Blog</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+									
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Area =================-->
+
+	<!--================ Start Home Banner Area =================-->
+@yield('content')
+	<!--================ End Newsletter Area =================-->
+
+	<!--================Footer Area =================-->
+	<footer class="footer_area">
 		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<div class="col-md-8">
-					<!-- row -->
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title">
-								<h2 class="title">Postingan Terbaru</h2>
-							</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+							<a href="/">
+								<img src="{{ asset('frontend/img/logo.png')}}" alt="">
+							</a>
+							<h4>Follow Me</h4>
 						</div>
-						<!-- post -->
-						@foreach($data as $post_terbaru)
-						<div class="col-md-6">
-							<div class="post">
-								<a class="post-img" href="{{ route('blog.isi', $post_terbaru->slug ) }}"><img src="{{ $post_terbaru->gambar }}" alt="" style="height: 200px"></a>
-								<div class="post-body">
-									<div class="post-category">
-										<a href="#">{{ $post_terbaru->category->name }}</a>
-									</div>
-									<h3 class="post-title"><a href="#">{{ $post_terbaru->judul }}</a></h3>
-									<ul class="post-meta">
-										<li><a href="#">{{ $post_terbaru->users->name }}</a></li>
-										<li>{{ $post_terbaru->created_at->diffForHumans() }}</li>
-									</ul>
-								</div>
-							</div>
+						<div class="footer_social">
+							<a href="https://m.facebook.com/derra.nurman"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
 						</div>
-						@endforeach
-			
 					</div>
-					<!-- /row -->
-
-	
 				</div>
-				
-		
-		
-			<!-- /row -->
-@endsection
-
-
-
-
+			</div>
+			<div class="row footer_bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="{{ asset('frontend/js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{ asset('frontend/js/popper.js')}}"></script>
+	<script src="{{ asset('frontend/js/bootstrap.min.js')}}"></script>
+	<script src="{{ asset('frontend/js/stellar.js')}}"></script>
+	<script src="{{ asset('frontend/js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{ asset('frontend/vendors/nice-select/js/jquery.nice-select.min.js')}}"></script>
+	<script src="{{ asset('frontend/vendors/isotope/imagesloaded.pkgd.min.js')}}"></script>
+	<script src="{{ asset('frontend/vendors/isotope/isotope-min.js')}}"></script>
+	<script src="{{ asset('frontend/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
+	<script src="{{ asset('frontend/js/jquery.ajaxchimp.min.js')}}"></script>
+	<script src="{{ asset('frontend/js/mail-script.js')}}"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="{{ asset('frontend/js/gmaps.min.js')}}"></script>
+	<script src="{{ asset('frontend/js/theme.js')}}"></script>
+	@yield('js-after')
+	</body>
+	
+	</html>
