@@ -101,27 +101,7 @@ My Blog
                     @endforeach
                     
                         <nav class="blog-pagination justify-content-center d-flex">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Previous">
-                                        <span aria-hidden="true">
-                                            <span class="lnr lnr-chevron-left"></span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a href="#" class="page-link">01</a></li>
-                                <li class="page-item active"><a href="#" class="page-link">02</a></li>
-                                <li class="page-item"><a href="#" class="page-link">03</a></li>
-                                <li class="page-item"><a href="#" class="page-link">04</a></li>
-                                <li class="page-item"><a href="#" class="page-link">09</a></li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Next">
-                                        <span aria-hidden="true">
-                                            <span class="lnr lnr-chevron-right"></span>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
+                     {{$data->links()}}
                         </nav>
                     </div>
                 </div>
@@ -154,21 +134,21 @@ My Blog
                             <div class="media post_item">
                         
                                 <div class="media-body">
-                                    <a href="single-blog.html"><h3>Networking Learn</h3></a>
+                                    <a href="{{route('frontend.blog')}}"><h3>Networking Learn</h3></a>
                                   
                                 </div>
                             </div>
                             <div class="media post_item">
                             
                                 <div class="media-body">
-                                    <a href="single-blog.html"><h3>Programing Learn</h3></a>
+                                    <a href="{{route('frontend.blog')}}"><h3>Programing Learn</h3></a>
                                    
                                 </div>
                             </div>
                             <div class="media post_item">
                                 
                                 <div class="media-body">
-                                    <a href="single-blog.html"><h3>Technology</h3></a>
+                                    <a href="{{route('frontend.blog')}}"><h3>Technology</h3></a>
                                    
                                 </div>
                             </div>
@@ -229,17 +209,9 @@ My Blog
                             <h4 class="widget_title">Tag Clouds</h4>
                             <ul class="list">
                                 <li><a href="#">Technology</a></li>
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">Architecture</a></li>
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Lifestyle</a></li>
-                                <li><a href="#">Art</a></li>
-                                <li><a href="#">Adventure</a></li>
-                                <li><a href="#">Food</a></li>
-                                <li><a href="#">Lifestyle</a></li>
-                                <li><a href="#">Adventure</a></li>
+                                <li><a href="#">Programing</a></li>
+                                <li><a href="#">DesainerF</a></li>
+                               
                             </ul>
                         </aside>
                     </div>

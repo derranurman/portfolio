@@ -59,7 +59,7 @@
                             @foreach ($data as $postingan)
                             <h2>{{$postingan->judul}}</h2>
                             <p class="excert">
-                              {{ $postingan->content}}
+                               {!!$postingan->content!!}
                             </p>
                             
                             @endforeach
@@ -205,21 +205,21 @@
                             <div class="media post_item">
                         
                                 <div class="media-body">
-                                    <a href="single-blog.html"><h3>Networking Learn</h3></a>
+                                    <a href="{{route('frontend.blog')}}"><h3>Networking Learn</h3></a>
                                   
                                 </div>
                             </div>
                             <div class="media post_item">
                             
                                 <div class="media-body">
-                                    <a href="single-blog.html"><h3>Programing Learn</h3></a>
+                                    <a href="{{route('frontend.blog')}}"><h3>Programing Learn</h3></a>
                                    
                                 </div>
                             </div>
                             <div class="media post_item">
                                 
                                 <div class="media-body">
-                                    <a href="single-blog.html"><h3>Technology</h3></a>
+                                    <a href="{{route('frontend.blog')}}"><h3>Technology</h3></a>
                                    
                                 </div>
                             </div>
@@ -234,19 +234,19 @@
                             <h4 class="widget_title">Post Catgories</h4>
                             <ul class="list cat-list">
                                 <li>
-                                    <a href="#" class="d-flex justify-content-between">
+                                    <a href="{{route('frontend.blog')}}" class="d-flex justify-content-between">
                                         <p>Technology</p>
                                        
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="d-flex justify-content-between">
+                                    <a href="{{route('frontend.blog')}}" class="d-flex justify-content-between">
                                         <p>Basic Network</p>
                                         
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="d-flex justify-content-between">
+                                    <a href="{{route('frontend.blog')}}" class="d-flex justify-content-between">
                                         <p>Programing List</p>
                                         
                                     </a>
@@ -279,9 +279,9 @@
                         <aside class="single-sidebar-widget tag_cloud_widget">
                             <h4 class="widget_title">Tag Clouds</h4>
                             <ul class="list">
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Network</a></li>
-                                <li><a href="#">Programing</a></li>
+                                <li><a href="{{route('frontend.blog')}}">Technology</a></li>
+                                <li><a href="{{route('frontend.blog')}}">Network</a></li>
+                                <li><a href="{{route('frontend.blog')}}">Programing</a></li>
                      
                             </ul>
                         </aside>

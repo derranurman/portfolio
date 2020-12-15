@@ -53,7 +53,7 @@ class BlogController extends Controller
     {
         $category_widget = Category::all();
 
-        $data = $posts->latest()->paginate(6);
+        $data = $posts->latest()->paginate(4);
         return view('frontend.blog', compact('data', 'category_widget'));
     }
     public function about()

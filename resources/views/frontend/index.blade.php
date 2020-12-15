@@ -173,29 +173,32 @@ MY WEBSITE
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="{{ asset('frontend/img/services/s1.png')}}" alt="">
-						<h4>Hardware Sofware</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<h4>Networking Enginer </h4>
+						<p>Mastering Skills in Sofware, Hardware, and Network</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="{{ asset('frontend/img/services/s2.png')}}" alt="">
 						<h4>Design</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<p>Mastering Skills in Desain(Photoshop,
+							ColerDrawX7,
+							Adobe ilustrator, dll.)</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="{{ asset('frontend/img/services/s3.png')}}" alt="">
 						<h4>Web Development</h4>
-						<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+						<p>Mastering Skills in Web Programing, Framework
+							(Laravel,React.Js,Flutter)</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
 						<img src="{{ asset('frontend/img/services/s4.png')}}" alt="">
 						<h4>Office</h4>
-						<p>professional in the field of office ms.word, acces, excel.
+						<p>Professional in the field of Office Ms.Word, Acces, Excel.
 							Fast Work
 						</p>
 					</div>
