@@ -307,7 +307,7 @@ MY WEBSITE
         			<div class="testi_item">
         				<div class="row">
         					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
+        			
         					</div>
         					<div class="col-lg-8">
         						<div class="testi_text">
@@ -320,7 +320,7 @@ MY WEBSITE
         			<div class="testi_item">
         				<div class="row">
         					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
+        						<img src="" alt="">
         					</div>
         					<div class="col-lg-8">
         						<div class="testi_text">
@@ -333,7 +333,7 @@ MY WEBSITE
         			<div class="testi_item">
         				<div class="row">
         					<div class="col-lg-4">
-        						<img src="img/testimonials/t1.jpg" alt="">
+        						<img src="" alt="">
         					</div>
         					<div class="col-lg-8">
         						<div class="testi_text">
@@ -346,7 +346,7 @@ MY WEBSITE
         			<div class="testi_item">
         				<div class="row">
         					<div class="col-lg-4">
-        						<img src="img/testimonials/t2.jpg" alt="">
+        						<img src="" alt="">
         					</div>
         					<div class="col-lg-8">
         						<div class="testi_text">

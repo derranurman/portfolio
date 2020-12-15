@@ -27,7 +27,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="/"><img src="{{ asset('frontend/img/logo.png')}}" alt=""></a>
+					<a class="navbar-brand logo_h" href="{{ url('') }}"><img src="{{ asset('frontend/img/logo.png')}}" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -37,19 +37,19 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="/portfolio">Portfolio</a></li>
+							<li class="nav-item active"><a class="nav-link" href="{{ url('') }}">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.about') }}">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.portfolio') }}">Portfolio</a></li>
 						
 							<li class="nav-item submenu dropdown">
-								<a href="/blog" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								<a href="{{ route('frontend.blog') }}" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Blog</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+									<li class="nav-item"><a class="nav-link" href="{{ route('frontend.blog') }}">Blog</a></li>
 									
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.contact') }}">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 				<div class="col-lg-12">
 					<div class="footer_top flex-column">
 						<div class="footer_logo">
-							<a href="/">
+							<a href="{{ url('') }}">
 								<img src="{{ asset('frontend/img/logo.png')}}" alt="">
 							</a>
 							<h4>Follow Me</h4>
