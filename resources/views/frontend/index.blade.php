@@ -55,7 +55,7 @@ MY WEBSITE
 						<p>
 							Nama Derra Kusdianurman. Saya adalah Seorang Networking Enginer. Saya lahir di Tasikmalaya, 5 Januari 2001. Saat ini, saya tinggal di Pasar Indihiang, Kota Tasikmalaya.
 						</p>
-						<a class="primary_btn" href="https://drive.google.com/file/d/13GhhLtzR7vEjb6zNfol_MgEy5ENdSqKK/view"><span>Download CV</span></a>
+						<a class="primary_btn" href="https://drive.google.com/file/d/1h3mPfc8XNcMW-PDmXN8atG54NnHYQwm1/view?usp=sharing"><span>Download CV</span></a>
 					</div>
 				</div>
 			</div>
