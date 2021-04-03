@@ -95,6 +95,30 @@
 	
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbwYfaaMM7v7KakGNA9tEOi1aq072RaTb7D6onNw7jQrcOLFIpJZ9Y1-ZRhxsN9rr0zv/exec'
+		const form = document.forms['contact-blog-me']
+		const btnKirim = document.querySelector('.btn-kirim');
+		const btnLoading = document.querySelector('.btn-loading');
+		const myAlert = document.querySelector('.my-alert');
+
+		form.addEventListener('submit', e => {
+		  e.preventDefault()
+		
+			btnLoading.classList.toggle('d-none');
+			btnKirim.classList.toggle('d-none');
+
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => {
+				btnLoading.classList.toggle('d-none');
+			btnKirim.classList.toggle('d-none');
+			myAlert.classList.toggle('d-none');
+			form.reset();
+				console.log('Success!', response)
+			})
+			.catch(error => console.error('Error!', error.message))
+		})
+	  </script>
 	<script src="{{ asset('frontend/js/jquery-3.2.1.min.js')}}"></script>
 	<script src="{{ asset('frontend/js/popper.js')}}"></script>
 	<script src="{{ asset('frontend/js/bootstrap.min.js')}}"></script>

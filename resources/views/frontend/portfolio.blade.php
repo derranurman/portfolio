@@ -95,6 +95,23 @@ My Portfolio
 							</div>
 						</div>
 					</div>	
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/animator1.jpg')}}" alt="">
+								<div class="overlay"></div>
+								<a href="{{ asset('frontend/img/portfolio/animator1.jpg')}}" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Animasi</a></h4>
+								<p>Animation, portfolio</p>
+							</div>
+						</div>
+					</div>	
 						</div>
 					</div>
 				</div>

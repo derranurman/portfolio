@@ -132,7 +132,7 @@ About Us
 							</div>
 							<div class="ml-15">
 								<p>WhatsApp</p>
-								<h3>(+62)81901947018</h3>
+								<h3>(+62)85156735590</h3>
 							</div>
 						</div>
 					</div>

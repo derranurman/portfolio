@@ -34,8 +34,8 @@ Contact Us
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>
-                            <h6><a href="https://wa.me/qr/YSIAYD5EY6WEH1">081901947018</a></h6>
-                            <p>WhatsApp Number</p>
+                            <h6><a href="https://api.whatsapp.com/send?phone=6285156735590">085156735590</a></h6>
+                            <p><a href="https://api.whatsapp.com/send?phone=6285156735590">WhatsApp Number</a></p>
                             
                         </div>
                         <div class="info_item">
@@ -45,27 +45,35 @@ Contact Us
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-9">
-                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <div class="alert alert-success d-none my-alert" role="alert">
+                        <strong>Terima Kasih!!!</strong>  Pesan Anda Sudah Kami terima.
+                      </div>
+                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate" name="contact-blog-me">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                <input type="text" class="form-control" id="name" name="nama" placeholder="Enter your name">
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                <input type="text" class="form-control" id="subject" name="subjek" placeholder="Enter Subject">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                                <textarea class="form-control" name="pesan" id="message" rows="1" placeholder="Enter Message"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 text-right">
-                            <a class="primary_btn" href="#"><span>Send Message</span></a>
+                            <button type="submit" class="primary_btn btn-kirim"><span>Send Message</span></button>
                        
+                            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Loading...
+                              </button>
                         </div>
                         </div>
                     </form>
