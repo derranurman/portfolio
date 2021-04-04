@@ -17,6 +17,7 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="{{ asset('frontend/css/style.css')}}">
 	@yield('css-after')
+	<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="2b3b5328-90bc-471b-95b9-3a431ece74b4";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </head>
 
 <body>
