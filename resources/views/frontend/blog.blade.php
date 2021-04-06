@@ -117,7 +117,7 @@ My Blog
                             <div class="br"></div>
                         </aside>
                         <aside class="single_sidebar_widget author_widget">
-                            <img class="author_img rounded-circle" src="{{asset('frontend/img/blog/11.jpg')}}" alt="">
+                            <img class="author_img rounded-circle" src="{{asset('frontend/img/blog/12.jpg')}}" alt="">
                             <h4>Derra Kusdianurman</h4>
                             <p>Networking Enginer</p>
                             <div class="social_icon">
