@@ -46,9 +46,9 @@ My CERTIFICATIONS
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/html.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/html1.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{ asset('frontend/img/portfolio/html.jpg')}}" class="img-gal">
+								<a href="{{ asset('frontend/img/portfolio/html1.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -63,9 +63,9 @@ My CERTIFICATIONS
 					<div class="col-lg-4 col-md-6 all popular">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/mtcna.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/mtcna1.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{ asset('frontend/img/portfolio/mtcna.jpg')}}" class="img-gal">
+								<a href="{{ asset('frontend/img/portfolio/mtcna1.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -80,9 +80,9 @@ My CERTIFICATIONS
                     <div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/laravel.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/laravel1.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{ asset('frontend/img/portfolio/laravel.jpg')}}" class="img-gal">
+								<a href="{{ asset('frontend/img/portfolio/laravel1.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -97,9 +97,9 @@ My CERTIFICATIONS
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/git.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/git1.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{ asset('frontend/img/portfolio/git.jpg')}}" class="img-gal">
+								<a href="{{ asset('frontend/img/portfolio/git1.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
@@ -114,9 +114,9 @@ My CERTIFICATIONS
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/php.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/php1.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{ asset('frontend/img/portfolio/php.jpg')}}" class="img-gal">
+								<a href="{{ asset('frontend/img/portfolio/php1.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
