@@ -224,8 +224,8 @@ MY WEBSITE
 					<li class="active" data-filter="*">all</li>
 					<li data-filter=".popular">popular</li>
 					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
+				
+				
 				</ul>
 			</div>
 	
@@ -268,17 +268,17 @@ MY WEBSITE
 					<div class="col-lg-4 col-md-6 all latest">
 						<div class="portfolio_box">
 							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/images.jpg')}}" alt="">
+								<img class="img-fluid w-100" src="{{ asset('frontend/img/portfolio/0.jpg')}}" alt="">
 								<div class="overlay"></div>
-								<a href="{{ asset('frontend/img/portfolio/images.jpg')}}" class="img-gal">
+								<a href="{{ asset('frontend/img/portfolio/0.jpg')}}" class="img-gal">
 									<div class="icon">
 										<span class="lnr lnr-cross"></span>
 									</div>
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Desain</a></h4>
-								<p>Desain, portfolio</p>
+								<h4><a href="portfolio-details.html">Router</a></h4>
+								<p>Router Configurations, portfolio</p>
 							</div>
 						</div>
 					</div>
@@ -340,7 +340,7 @@ MY WEBSITE
         					</div>
         					<div class="col-lg-8">
         						<div class="testi_text">
-        							<h4>Seirenz</h4>
+        							<h4>CLIENT ORDERS</h4>
 									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
         						</div>
         					</div>

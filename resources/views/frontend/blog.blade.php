@@ -121,7 +121,7 @@ My Blog
                             <h4>Derra Kusdianurman</h4>
                             <p>Networking Enginer</p>
                             <div class="social_icon">
-                                <a href="https://mobile.facebook.com/derra.nurman?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a>
+                                <a href="https://mobile.facebook.com/derra.nurman"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-github"></i></a>
                                 <a href="#"><i class="fa fa-behance"></i></a>

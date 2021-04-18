@@ -68,6 +68,12 @@ class BlogController extends Controller
     {
         return view('frontend.portfolio');
     }
+    public function certification()
+    {
+        return view('frontend.certification');
+    }
+
+
     public function detail_blog($slug)
     {
         $category_widget = Category::all();

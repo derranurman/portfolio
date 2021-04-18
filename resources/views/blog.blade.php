@@ -41,7 +41,7 @@
 							<li class="nav-item active"><a class="nav-link" href="{{ url('') }}">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.about') }}">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.portfolio') }}">Portfolio</a></li>
-						
+							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.certification') }}">My Certifications</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="{{ route('frontend.blog') }}" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Blog</a>

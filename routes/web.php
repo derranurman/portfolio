@@ -23,7 +23,7 @@ Route::get('/blog', 'BlogController@blogz')->name('frontend.blog');
 Route::get('/about', 'BlogController@about')->name('frontend.about');
 Route::get('/contact', 'BlogController@contact')->name('frontend.contact');
 Route::get('/portfolio', 'BlogController@portfolio')->name('frontend.portfolio');
-
+Route::get('/mycertification', 'BlogController@certification')->name('frontend.certification');
 
 
 
