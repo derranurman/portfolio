@@ -42,14 +42,9 @@
 							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.about') }}">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.portfolio') }}">Portfolio</a></li>
 							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.certification') }}">My Certifications</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="{{ route('frontend.blog') }}" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="{{ route('frontend.blog') }}">Blog</a></li>
-									
-								</ul>
-							</li>
+
+							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.blog') }}">Blog</a></li>
+							
 							<li class="nav-item"><a class="nav-link" href="{{ route('frontend.contact') }}">Contact</a></li>
 						</ul>
 					</div>
