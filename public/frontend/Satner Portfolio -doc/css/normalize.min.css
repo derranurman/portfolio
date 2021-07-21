@@ -20,6 +20,9 @@ video {
   *display: inline;
   *zoom: 1;
 }
+#disqus_thread > iframe[sandbox] {
+  display: none !important;
+}
 audio:not([controls]) {
   display: none;
   height: 0;
